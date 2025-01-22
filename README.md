@@ -1,1 +1,1 @@
-# Dynamic-workflow
+# my-aws-ecr-project
