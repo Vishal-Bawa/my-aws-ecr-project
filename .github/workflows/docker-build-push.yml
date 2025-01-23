@@ -28,7 +28,7 @@ jobs:
 
     # Debug: Output ECR repository URI to ensure it's correct
     - name: Debug ECR URI
-      run: echo "ECR URI: ${{ secrets.ECR_REPOSITORY_URI }}"
+      run: echo "ECR URI:${{ secrets.ECR_REPOSITORY_URI }}"
 
     # Step 4: Log in to AWS ECR
     - name: Log in to Amazon ECR
